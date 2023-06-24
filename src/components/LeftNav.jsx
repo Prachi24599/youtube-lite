@@ -8,6 +8,8 @@ const LeftNav = () => {
   const { selectCategories, setSelectCategories, mobileMenu } =
     useContext(Context);
 
+  const navigate = useNavigate();
+
   const clickHandler = (name, type) => {
     switch (type) {
       case "category":
@@ -32,6 +34,7 @@ const LeftNav = () => {
                 icon={item.icon}
                 action={() => {
                   clickHandler(item.name, item.type);
+                  navigate("/");
                 }}
                 className={`${
                   selectCategories === item.name ? "bg-white/[0.15]" : ""
