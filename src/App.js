@@ -9,7 +9,19 @@ import { AppContext } from "./context/contextApi";
 const App = () => {
   return (
     <AppContext>
-      <div className="text-3xl bg-red-500">App</div>
+      <BrowserRouter>
+        <div className="flex flex-col h-full">
+          <Header />
+          <Routes>
+            <Route path="/" exact element={<Feed />} />
+            <Route
+              path="/searchResult/:searchQuery"
+              element={<SearchResult />}
+            />
+            <Route path="/video/:id" element={<VideoDetails />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
     </AppContext>
   );
 };
