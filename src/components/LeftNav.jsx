@@ -14,7 +14,7 @@ const LeftNav = () => {
           return (
             <React.Fragment>
               <LeftNavMenuItem
-                type={item.type === "home" ? "Home" : item.name}
+                text={item.type === "home" ? "Home" : item.name}
                 icon={item.icon}
                 action={() => {}}
                 className={`${
