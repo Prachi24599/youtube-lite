@@ -2,6 +2,7 @@ import React from "react";
 import { abbreviateNumber } from "js-abbreviation-number";
 import { Link } from "react-router-dom";
 import { BsFillCheckCircleFill } from "react-icons/bs";
+import VideoLength from "../shared/VideoLength";
 
 const VideoCard = ({ video }) => {
   return (
@@ -13,6 +14,27 @@ const VideoCard = ({ video }) => {
             src={video?.thumbnails?.[0]?.url}
             alt="tumbnail-img"
           />
+          {video?.lengthSeconds && <VideoLength time={video?.lengthSeconds} />}
+        </div>
+        <div className="flex text-white mt-3">
+          <div className="flex items-center">
+            <div className="flex h-9 w-9 rounded-full overflow-hidden">
+              <img
+                className="h-full w-full object-cover"
+                src={video?.author?.avatar?.[0]?.url}
+                alt="avatar-img"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col ml-3 overflow-hidden">
+            <span className="text-sm line-clamp-2">{video?.title}</span>
+            <span className="text-[12px] font-semibold mt-2 text-white/[0.7] flex items-center">
+              {video?.author?.title}
+              {video?.author?.badges?.[0]?.type === "VERIFIED_CHANNEL" && (
+                <BsFillCheckCircleFill className="text-white/[0.5] text-[12px] ml-1" />
+              )}
+            </span>
+          </div>
         </div>
       </div>
     </Link>
