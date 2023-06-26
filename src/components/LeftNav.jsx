@@ -28,7 +28,7 @@ const LeftNav = () => {
       <div className="flex px-5 flex-col">
         {categories.map((item) => {
           return (
-            <React.Fragment>
+            <React.Fragment key={item.name}>
               <LeftNavMenuItem
                 text={item.type === "home" ? "Home" : item.name}
                 icon={item.icon}
