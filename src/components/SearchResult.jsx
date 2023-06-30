@@ -24,7 +24,7 @@ const SearchResult = () => {
         setLoading(false);
       })
       .catch((err) => {
-        console.log("SOMETHING WHEN WRONG!");
+        console.log("SOMETHING WHEN WRONG!" + err);
       });
   };
 
