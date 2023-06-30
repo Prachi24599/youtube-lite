@@ -23,7 +23,7 @@ YouTube-Lite is a lightweight clone of the popular video streaming platform YouT
 ```
 2. Navigate to the project directory:
 ```bash
-  cd YouTube-Lite
+  cd youtube-lite
 ```
 3. Install the dependencies:
 ```bash
