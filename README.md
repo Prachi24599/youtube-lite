@@ -1,10 +1,11 @@
 
-# YouTube-Lite
+# ⭐ YouTube-Lite ⭐
 
-YouTube-Lite is a lightweight clone of the popular video sharing platform YouTube. It provides users with a seamless experience to explore, watch, and share videos. This project is developed using HTML, Tailwind CSS, JavaScript, React, and the YouTube API.
+YouTube-Lite is a lightweight clone of the popular video streaming platform YouTube. It provides users with a seamless experience to explore, watch, and share videos. This project is developed using HTML, Tailwind CSS, JavaScript, React, and the YouTube API.
 
+# 📌 Live URL - [Youtube-Lite](https://pp-youtube-lite.netlify.app/) 
 
-## Features
+## 📌  Features
 
 - Browse and search videos from a vast library across various genres.
 - Intuitive user interface resembling the familiar YouTube design.
@@ -14,7 +15,7 @@ YouTube-Lite is a lightweight clone of the popular video sharing platform YouTub
 - Search videos on various categories directly from Feed section.
 
 
-## Installation
+## 📌 Installation
 
 1. Clone the repository:
 ```bash
@@ -35,7 +36,7 @@ YouTube-Lite is a lightweight clone of the popular video sharing platform YouTub
 5. Open your web browser and visit http://localhost:3000 to access YouTube-Lite.
 
 
-## API Key Setup
+## 📌 API Key Setup
 
 #### Get all items
 1. Visit the [RapidApi](https://rapidapi.com/) and sign up. 
@@ -57,18 +58,18 @@ YouTube-Lite is a lightweight clone of the popular video sharing platform YouTub
 7. Save the .env file.
 
 
-## Contributing
+## 📌 Contributing
 
 #### Contributions to  YouTube-Lite are always welcome!
 If you find a bug or have a suggestion for improvement, please open an issue or submit a pull request.
 
 
-## License
+## 📌 License
 
  This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/)
 
 
-## Acknowledgements
+## 📌 Acknowledgements
 
 - RapidApi API: https://rapidapi.com/Glavier/api/youtube138/
 - React: https://reactjs.org
