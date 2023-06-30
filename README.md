@@ -19,7 +19,7 @@ YouTube-Lite is a lightweight clone of the popular video streaming platform YouT
 
 1. Clone the repository:
 ```bash
-  git clone https://github.com/your-username/YouTube-Lite.git
+  https://github.com/Prachi24599/youtube-lite.git
 ```
 2. Navigate to the project directory:
 ```bash
